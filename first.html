@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar{
+            background-color: rgb(87, 86, 156);
+            border-radius: 30px;
+            
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left; /* background color gone thats why we can use overflow*/
+            list-style: none;
+            
+            margin: 13px 20px;/* To outside effect from inside individual element*/
+
+
+        }
+        
+        .navbar li a{/* navbar ka andar li ka andar a*/
+            color: white;
+            padding: 3px 3px;/* individually padding*/
+            text-decoration: none;
+            top: 0;
+
+        }
+        .navbar li a:hover{/* navbar ka andar li ka andar a*/
+            color: rgb(226, 226, 118);
+            padding: 3px 3px;/* individually padding*/
+            text-decoration: none;
+            
+
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 64px; /*padding from right about x axis*/
+        }
+        .navbar input{
+            border: 2px solid rgb(87, 86, 156);
+            border-radius: 13px;
+            padding: 4px 12px;
+            width: 124px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <!-- <div class="search">
+                   <input type="text" name="search" id="search" placeholder="Search this website">
+                </div> -->
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
